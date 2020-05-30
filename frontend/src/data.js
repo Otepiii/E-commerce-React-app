@@ -1,6 +1,7 @@
 export default {
   products: [
     {
+      _id: "1",
       name: "Grey Shirt",
       category: "Shirts",
       image: "/images/d1.jpg",
@@ -10,6 +11,7 @@ export default {
       numReviews: 10,
     },
     {
+      _id: "2",
       name: "Black Shirt",
       category: "Shirts",
       image: "/images/d2.jpg",
@@ -19,6 +21,7 @@ export default {
       numReviews: 10,
     },
     {
+      _id: "3",
       name: "White Shirt",
       category: "Shirts",
       image: "/images/d3.jpg",
@@ -28,6 +31,7 @@ export default {
       numReviews: 10,
     },
     {
+      _id: "4",
       name: "Red Shirt",
       category: "Shirts",
       image: "/images/d4.jpg",
@@ -37,6 +41,7 @@ export default {
       numReviews: 10,
     },
     {
+      _id: "5",
       name: "Olive Shirt",
       category: "Shirts",
       image: "/images/d5.jpg",
