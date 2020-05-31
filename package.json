@@ -1,0 +1,19 @@
+{
+  "name": "e-commerce-react-app",
+  "version": "1.0.0",
+  "description": "This app will be using HTML and CSS for web design, user interactivity by Javascript, implement front end by using react &amp; redux and build a web API using Node and express js for the backend  &amp; MongoDB and mongoose for the ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otepiii/E-commerce-React-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otepiii/E-commerce-React-app/issues"
+  },
+  "homepage": "https://github.com/Otepiii/E-commerce-React-app#readme"
+}
