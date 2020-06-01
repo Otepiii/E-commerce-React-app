@@ -4,7 +4,7 @@
   "description": "This app will be using HTML and CSS for web design, user interactivity by Javascript, implement front end by using react &amp; redux and build a web API using Node and express js for the backend  &amp; MongoDB and mongoose for the ORM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,12 @@
   "homepage": "https://github.com/Otepiii/E-commerce-React-app#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "nodemon": "^2.0.4"
   }
 }
