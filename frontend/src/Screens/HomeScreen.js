@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// import axios from "axios";
+import axios from "axios";
 import { useSelector, useDispatch } from "react-redux";
 import { listProducts } from "../actions/productActions";
 
@@ -13,8 +13,7 @@ function HomeScreen(props) {
     return () => {};
   }, []);
 
-  return(
-  loading ? (
+  return loading ? (
     <div>Loading...</div>
   ) : error ? (
     <div>{error}</div>
@@ -42,7 +41,7 @@ function HomeScreen(props) {
         </li>
       ))}
     </ul>
-  ))
+  );
 }
 
 export default HomeScreen;

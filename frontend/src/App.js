@@ -1,7 +1,5 @@
 import React from "react";
-import data from "./data";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
@@ -25,7 +23,6 @@ function App() {
           <div className="header-links">
             <a href="cart.html">Cart </a>
             <a href="signin.html">Sign In</a>
-            <a href=""></a>
           </div>
         </header>
         <aside className="sidebar">
